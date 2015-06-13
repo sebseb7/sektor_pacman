@@ -95,8 +95,10 @@ static uint8_t tick(void) {
 		}
 	}
 
-	print_5x3_at (1,5,"PRESS",255,255,255);
-	print_5x3_at (1,15,"BUTTON",255,255,255);
+	print_5x3_at (1,2,"PRESS",255,255,255);
+	print_5x3_at (1,8,"BUTTON",255,255,255);
+	print_5x3_at (1,14,"TO",255,255,255);
+	print_5x3_at (1,20,"START",255,255,255);
 
 	if(joy_button_click())
 		return 1;
